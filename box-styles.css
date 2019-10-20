@@ -21,8 +21,13 @@ h1{
     color: rgb(110, 110, 110);
   }
 
+  #retour{
+    font-size: 15px;
+    color: rgb(255, 153, 0);
+  }
 p{
   color: rgb(110,110,110);
+  font-size: 25px;
 }
 
   nav{
@@ -61,6 +66,3 @@ nav a{
   text-decoration: none;
 }
 
-p{
-  font-size: 25px;
-}
