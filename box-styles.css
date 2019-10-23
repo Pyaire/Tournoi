@@ -66,3 +66,10 @@ nav a{
   text-decoration: none;
 }
 
+img {
+	max-width: 15%;
+  height: auto;
+  position: relative;
+  left: 1450px;
+  bottom: 210px;
+}
