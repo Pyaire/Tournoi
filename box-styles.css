@@ -1,18 +1,21 @@
 html{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(26, 26, 26);
+  background-image: url(pic/background.png);
 }
 
 body{
   margin: 0;
   padding: 0;
+  background-image: url(pic/background.png);
 }
 
 h1{
-    background-color: rgb(250, 123, 4);
+    background-color: rgba(4, 29, 250, 0.062);
     padding: 25px;
     width : 97.2%;
-    border: outset 2px rgb(0, 0, 0);
+    border: outset 2px rgba(214, 147, 45, 0.753);
+    color: rgb(13, 27, 151);
+    text-shadow: 0 0 2px rgb(214,147,45);
   }
 
   h2{
@@ -23,7 +26,7 @@ h1{
 
   #retour{
     font-size: 15px;
-    color: rgb(255, 153, 0);
+    color: rgb(214, 146, 45);
   }
 p{
   color: rgb(110,110,110);
@@ -32,7 +35,9 @@ p{
 
   nav{
     width: 100%;
-    background-color: rgb(231, 142, 24);
+    background-color: rgba(4, 29, 250, 0.075);
+    border: outset 2px rgba(214, 147, 45, 0.753);
+    width : 99.7%;
   }
 
 nav > ul{
@@ -73,3 +78,4 @@ img {
   left: 1450px;
   bottom: 210px;
 }
+
